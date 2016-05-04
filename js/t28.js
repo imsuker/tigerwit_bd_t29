@@ -41,7 +41,7 @@ $(function(){
       layer.load();
       var game = $(this).attr('_type');
       var varName = 'var' + new Date().getTime();
-      $.getScript('http://www.tigerwit.com/action/public/v3/apply_to_game',{
+      $.getScript('https://www.tigerwit.com/action/public/v3/apply_to_game',{
         game : game,
         'var' : varName 
       },function(){
