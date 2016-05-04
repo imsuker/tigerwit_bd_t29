@@ -1,0 +1,273 @@
+ul,
+li {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+p,
+blockquote,
+th,
+td,
+ol,
+ul,
+li,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.clear {
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+textarea,
+input,
+button {
+  resize: none;
+  outline: none;
+  font-family: "microsoft yahei", simhei, Helvetica, Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "microsoft yahei", simhei, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 1060px;
+}
+.position-relative {
+  position: relative;
+}
+.text-center {
+  text-align: center;
+}
+.mg-tp-20 {
+  margin-top: 20px !important;
+}
+.mg-tp-50 {
+  margin-top: 50px !important;
+}
+.mg-tp-100 {
+  margin-top: 100px !important;
+}
+.mg-bt-50 {
+  margin-bottom: 50px !important;
+}
+.mg-bt-50 {
+  margin-bottom: 50px !important;
+}
+.mg-bt-80 {
+  margin-bottom: 80px !important;
+}
+.pd-bt-80 {
+  padding-bottom: 80px;
+}
+.font-white {
+  color: #fff !important;
+}
+.font-bold {
+  font-weight: bold;
+}
+.font-size-18 {
+  font-size: 18px;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline-block;
+}
+.act-sim {
+  background-color: #00162a;
+}
+.act-sim__banner {
+  position: relative;
+  height: 1052px;
+  background-position: center center;
+  background-image: url(../images/act-sim-banner.jpg);
+}
+.act-sim__banner-btn {
+  position: relative;
+  padding: 30px 73px;
+  background-color: #fedd0a;
+  font-size: 30px;
+  line-height: 30px;
+  color: #000;
+}
+.act-sim__banner-btn1 {
+  top: 766px;
+  background-color: #f3f3f3;
+}
+.act-sim__banner-btn2 {
+  top: 766px;
+}
+.act-sim__banner {
+  position: relative;
+  height: 888px;
+  background-position: center center;
+  background-image: url(../images/act-sim-banner.jpg);
+}
+.act-sim__contest {
+  position: relative;
+  top: -24px;
+  color: #fff;
+}
+.act-sim__contest-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.act-sim__contest-con1 {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.85px;
+}
+.table {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.act-sim__contest table > thead {
+  background-color: #fedd0a;
+  font-size: 18px;
+  color: #000;
+}
+.act-sim__contest table > thead th {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-right: 1px solid #00162a;
+}
+.act-sim__contest table > thead th:last-child {
+  border-right: 1px solid #fedd0a;
+}
+.act-sim__contest table > tbody {
+  color: #f3f3f3;
+}
+.act-sim__contest table > tbody tr {
+  border: 1px solid #314252;
+  border-top: none;
+}
+.act-sim__contest table > tbody td {
+  padding: 15px 10px;
+}
+.act-sim__contest table > tbody td:nth-child(2n) {
+  background-color: #192d3e;
+}
+.act-sim__rules {
+  background-color: #fff;
+}
+.act-sim__contest-tip {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.act-sim__contest ul {
+  font-size: 16px;
+}
+.act-sim__contest ul li {
+  line-height: 30px;
+}
+.act-sim__contest-gift {
+  position: relative;
+}
+.act-sim__contest-box {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 483px;
+  height: 432px;
+  background-size: 100%;
+  background-position: center center;
+  background-image: url(../images/act-sim-box.jpg);
+}
+.act-sim__rules .rule-container {
+  margin: 0 auto;
+  width: 1060px;
+}
+.hy-tabs .hy-tabs-ul {
+  margin-top: 80px;
+  margin-left: 164px;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+}
+.hy-tabs .hy-tabs-ul li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: left;
+  width: 329px;
+  border: none !important;
+  font-size: 30px;
+  background-color: #00162a !important;
+  color: #fff !important;
+  cursor: pointer;
+  margin-right: -1px;
+}
+.hy-tabs .hy-tabs-ul .hy-tabs-ul-active {
+  background: #fedd0a !important;
+  color: #000 !important;
+}
+.hy-tabs .hy-tabs-con {
+  width: 100%;
+  color: #00162a;
+}
+.hy-tabs .hy-tabs-con1 {
+  display: none;
+}
+.hy-tabs .div-block {
+  display: block;
+}
+.act-sim__rules-title {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+}
+.act-sim__rules-con {
+  font-size: 14px;
+  line-height: 25px;
+}
+.act-sim__logo .act-sim__contest-title {
+  padding-top: 90px;
+}
+.act-sim__contest-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.act-sim__logo-img {
+  display: inline-block;
+  margin-bottom: 180px;
+  width: 1000px;
+  height: 367px;
+  background-position: center center;
+  background-size: 100%;
+  background-image: url(../images/act-sim-logo.jpg);
+}
