@@ -41,10 +41,10 @@ $(function(){
       layer.load();
       var game = $(this).attr('_type');
       var varName = 'var' + new Date().getTime();
-      $.getScript('https://www.tigerwit.com/action/public/v3/apply_to_game',{
+      $.getScript('https://www.tigerwit.com/action/public/v3/apply_to_game?'+$.param({
         game : game,
         'var' : varName 
-      },function(){
+      }),function(){
         var rs = window[varName];
         if(rs && rs.is_succ){
           
