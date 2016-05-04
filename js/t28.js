@@ -53,11 +53,7 @@ $(function(){
           msg = (rs && rs.error_msg) || "失败:"+(rs &&rs.error_code);
         }
         layer.closeAll('loading');
-        layer.alert(msg, {
-            skin: 'layui-layer-molv' //样式类名
-            ,closeBtn: 0
-        }, function(){
-        });
+        layer.msg(msg);
       });
     }
     var _type = $(this).attr('_type');
