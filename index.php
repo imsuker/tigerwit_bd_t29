@@ -17,7 +17,8 @@
 		<div class="body act-sim">
             <div class="act-sim__banner">
                 <div class="container position-relative text-center">
-                    <a class="act-sim__banner-btn act-sim__banner-btn1" href="#" onClick="info();">报名模拟大赛</a><a class="act-sim__banner-btn act-sim__banner-btn2" href="#" onClick="info();">报名实盘大赛</a>
+                  <a _type="1" class="act-sim__banner-btn act-sim__banner-btn1 enroll" href="javascript:">报名模拟大赛</a>
+                  <a _type="2" class="act-sim__banner-btn act-sim__banner-btn2 enroll" href="javascript:">报名实盘大赛</a>
                 </div>
             </div>
             <div class="act-sim__contest">
@@ -154,6 +155,7 @@
 		<?php require_once( '../t1/boot.php' );?>
 		<?php require_once( '../t1/footer.php' );?>
 		<script type="text/javascript" src="js/jquery-1.8.3.js" ></script>
+		<script type="text/javascript" src="layer/layer.js" ></script>
 		<script type="text/javascript" src="js/t28.js"></script>
 	</body>
 </html>
