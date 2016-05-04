@@ -40,9 +40,15 @@ $(function(){
     }else{
       layer.load();
       var game = $(this).attr('_type');
-      $.getScript('http://www.tigerwit.com/action/public/v3/apply_to_master',{
-        game : game
+      var varName = 'var' + new Date().getTime();
+      $.getScript('http://www.tigerwit.com/action/public/v3/apply_to_game',{
+        game : game,
+        'var' : varName 
       },function(){
+        var rs = window[varName];
+        if(rs && rs.is_succ){
+          
+        }
         layer.closeAll('loading');
         layer.alert('报名成功', {
             skin: 'layui-layer-molv' //样式类名
