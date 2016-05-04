@@ -46,11 +46,14 @@ $(function(){
         'var' : varName 
       }),function(){
         var rs = window[varName];
+        var msg = "失败";
         if(rs && rs.is_succ){
-          
+          msg = "报名成功";
+        }else{
+          msg = (rs && rs.error_msg) || "失败:"+(rs &&rs.error_code);
         }
         layer.closeAll('loading');
-        layer.alert('报名成功', {
+        layer.alert(msg, {
             skin: 'layui-layer-molv' //样式类名
             ,closeBtn: 0
         }, function(){
