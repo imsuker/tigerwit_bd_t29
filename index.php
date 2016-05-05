@@ -10,6 +10,8 @@
 		<title>老虎金融-模拟盘大赛</title>
 
 		<link rel="stylesheet" href="css/simulate.css" />
+    <script type="text/javascript" src="../t1/script/jquery.min.js"></script>
+    <script type="text/javascript" src="../t1/script/check.js"></script>
 	</head>
 
 	<body>
@@ -154,7 +156,6 @@
         </div>
 		<?php require_once( '../t1/boot.php' );?>
 		<?php require_once( '../t1/footer.php' );?>
-		<script type="text/javascript" src="js/jquery-1.8.3.js" ></script>
 		<script type="text/javascript" src="layer/layer.js" ></script>
 		<script type="text/javascript" src="js/t28.js"></script>
 	</body>
