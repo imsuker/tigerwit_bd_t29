@@ -38,7 +38,7 @@ $(function(){
        toLogin();
        return;
     }else{
-      layer.load();
+      layer.msg('正在报名...', {icon: 16,time:0});
       var game = $(this).attr('_type');
       var varName = 'var' + new Date().getTime();
       $.getScript('https://www.tigerwit.com/action/public/v3/apply_to_game?'+$.param({
@@ -52,8 +52,13 @@ $(function(){
         }else{
           msg = (rs && rs.error_msg) || "失败:"+(rs &&rs.error_code);
         }
-        layer.closeAll('loading');
-        layer.msg(msg);
+        layer.closeAll();
+        layer.alert(msg, {
+            skin: 'layui-layer-molv' //样式类名
+            ,closeBtn: 0
+        }, function(){
+          layer.closeAll();
+        });
       });
     }
     var _type = $(this).attr('_type');
